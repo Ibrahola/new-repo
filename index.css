@@ -1,0 +1,61 @@
+
+
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Domine', serif;
+    font-family: 'Happy Monkey', cursive;
+    color: white;
+    background: linear-gradient(#add8e6, pink)
+}
+
+.same {
+    text-shadow: 0 0 1px black;
+}
+.one {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border: 5px solid pink;
+}
+
+#header {
+    
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.two, h4 {
+    background-color: pink;
+}
+h2 {
+    padding: 5px;
+    border-radius: 5px;
+}
+h4 {
+    margin-top: -5px;
+    border-radius: 5px;
+}
+
+.three {
+    width: 200px;
+    height: 200px;
+    background-image: url(gift-box.jpeg);
+    background-size: cover;
+    border: 5px solid red;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.three:hover {
+    background-image: url(happy-gif\ 2.webp);
+}
+
